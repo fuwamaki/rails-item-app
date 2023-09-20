@@ -1,0 +1,2 @@
+class SimpleItem < ApplicationRecord
+end
