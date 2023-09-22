@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
   resources :simple_items
+  resources :check_ip, only: [:index]
 end
